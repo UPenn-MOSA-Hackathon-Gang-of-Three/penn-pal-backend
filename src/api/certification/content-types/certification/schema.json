@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certifications",
+  "info": {
+    "singularName": "certification",
+    "pluralName": "certifications",
+    "displayName": "Certification"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "CPA": {
+      "type": "text"
+    },
+    "CIA": {
+      "type": "text"
+    },
+    "CISA": {
+      "type": "text"
+    },
+    "PMP": {
+      "type": "text"
+    },
+    "CRMA": {
+      "type": "text"
+    },
+    "CFE": {
+      "type": "text"
+    },
+    "member": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::member.member",
+      "inversedBy": "certifications"
+    },
+    "best_match": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::best-match.best-match",
+      "inversedBy": "certifications"
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "members",
+  "info": {
+    "singularName": "member",
+    "pluralName": "members",
+    "displayName": "Member",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Type": {
+      "type": "enumeration",
+      "enum": [
+        "Mentor",
+        "Mentee"
+      ],
+      "required": true
+    },
+    "Email": {
+      "type": "email",
+      "required": true,
+      "unique": true
+    },
+    "Phone": {
+      "type": "string",
+      "required": false
+    },
+    "Gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Other"
+      ],
+      "required": true
+    },
+    "Company": {
+      "type": "string",
+      "required": true
+    },
+    "JobTitle": {
+      "type": "string",
+      "required": true
+    },
+    "TimeZone": {
+      "type": "string",
+      "required": true
+    },
+    "Location": {
+      "type": "string",
+      "required": true
+    },
+    "YearsOfExperience": {
+      "type": "integer",
+      "required": true
+    },
+    "MultipleMentorships": {
+      "type": "boolean",
+      "required": true
+    },
+    "GenderPreference": {
+      "type": "boolean",
+      "required": true
+    },
+    "certifications": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::certification.certification",
+      "mappedBy": "member"
+    },
+    "skills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::skill.skill",
+      "mappedBy": "member"
+    }
+  }
+}
