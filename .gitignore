@@ -108,8 +108,15 @@ coverage
 ############################
 
 .env
+.env.bak
 license.txt
 exports
 *.cache
 build
 .strapi-updater.json
+
+############################
+# Documentation
+############################
+
+dist

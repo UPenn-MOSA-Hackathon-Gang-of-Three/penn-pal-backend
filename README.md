@@ -54,4 +54,29 @@ Feel free to check out the [Strapi GitHub repository](https://github.com/strapi/
 
 ---
 
-<sub>🤫 Psst! [Strapi is hiring](https://strapi.io/careers).</sub>
+## Notes for Development
+This code has been configured so that it can be run locally with a local Postgres database.
+To develop with a local database, configure with the proper environment variable `ENV_PATH` as follows:
+
+```shell
+ENV_PATH=/Users/<username>/penn-pal-backend/.env.dev yarn develop
+```
+Please substitute <username> with the one used on your Mac.
+It is assumed that you already have a ".env.dev" file set up for storing the desired environment variable values like the below:
+
+```dotenv
+HOST=0.0.0.0
+PORT=1337
+
+DATABASE_HOST=127.0.0.1
+DATABASE_PORT=5432
+DATABASE_NAME=tobemodified
+DATABASE_USERNAME=tobemodified
+DATABASE_PASSWORD=tobemodified
+DATABASE_SSL=false
+
+APP_KEYS="toBeModified1,toBeModified2"
+API_TOKEN_SALT=tobemodified
+ADMIN_JWT_SECRET=tobemodified
+JWT_SECRET=tobemodified
+```
