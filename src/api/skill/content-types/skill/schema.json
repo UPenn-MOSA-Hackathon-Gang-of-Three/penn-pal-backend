@@ -4,36 +4,24 @@
   "info": {
     "singularName": "skill",
     "pluralName": "skills",
-    "displayName": "Skill"
+    "displayName": "Skill",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Leadership": {
-      "type": "text"
-    },
-    "Certification": {
-      "type": "text"
-    },
-    "Networking": {
-      "type": "text"
-    },
-    "Interviewing": {
-      "type": "text"
-    },
-    "Communication": {
-      "type": "text"
-    },
-    "StrategicThinking": {
-      "type": "text"
-    },
     "member": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::member.member",
       "inversedBy": "skills"
+    },
+    "Name": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
