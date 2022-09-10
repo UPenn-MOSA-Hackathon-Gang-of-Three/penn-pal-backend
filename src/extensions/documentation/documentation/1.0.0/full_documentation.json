@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-10T00:32:01.242Z"
+    "x-generation-date": "2022-09-10T04:35:21.328Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -596,6 +596,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "IsAvailable": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -1325,6 +1328,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "IsAvailable": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -2088,6 +2094,9 @@
                                             }
                                           }
                                         },
+                                        "IsAvailable": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -2816,6 +2825,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "IsAvailable": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -3746,6 +3758,9 @@
                               }
                             }
                           },
+                          "IsAvailable": {
+                            "type": "boolean"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -4467,6 +4482,9 @@
                                 }
                               }
                             }
+                          },
+                          "IsAvailable": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -5223,6 +5241,9 @@
                               }
                             }
                           },
+                          "IsAvailable": {
+                            "type": "boolean"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -5945,6 +5966,9 @@
                               }
                             }
                           },
+                          "IsAvailable": {
+                            "type": "boolean"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -6095,7 +6119,8 @@
               "Location",
               "YearsOfExperience",
               "MultipleMentorships",
-              "GenderPreference"
+              "GenderPreference",
+              "IsAvailable"
             ],
             "type": "object",
             "properties": {
@@ -6172,6 +6197,9 @@
                   ],
                   "example": "string or id"
                 }
+              },
+              "IsAvailable": {
+                "type": "boolean"
               }
             }
           }
@@ -6662,6 +6690,9 @@
                                             }
                                           }
                                         },
+                                        "IsAvailable": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -6897,6 +6928,9 @@
                     }
                   }
                 }
+              },
+              "IsAvailable": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -7433,6 +7467,9 @@
                                             }
                                           }
                                         },
+                                        "IsAvailable": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -7668,6 +7705,9 @@
                     }
                   }
                 }
+              },
+              "IsAvailable": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -8237,6 +8277,9 @@
                                             }
                                           }
                                         },
+                                        "IsAvailable": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -8472,6 +8515,9 @@
                     }
                   }
                 }
+              },
+              "IsAvailable": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -9008,6 +9054,9 @@
                                             }
                                           }
                                         },
+                                        "IsAvailable": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -9243,6 +9292,9 @@
                     }
                   }
                 }
+              },
+              "IsAvailable": {
+                "type": "boolean"
               },
               "createdAt": {
                 "type": "string",
@@ -9933,6 +9985,9 @@
                                 }
                               }
                             }
+                          },
+                          "IsAvailable": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -10638,6 +10693,9 @@
                                 }
                               }
                             }
+                          },
+                          "IsAvailable": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",
@@ -11377,6 +11435,9 @@
                               }
                             }
                           },
+                          "IsAvailable": {
+                            "type": "boolean"
+                          },
                           "createdAt": {
                             "type": "string",
                             "format": "date-time"
@@ -12081,6 +12142,9 @@
                                 }
                               }
                             }
+                          },
+                          "IsAvailable": {
+                            "type": "boolean"
                           },
                           "createdAt": {
                             "type": "string",

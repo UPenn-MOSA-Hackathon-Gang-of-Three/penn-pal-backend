@@ -109,6 +109,7 @@ coverage
 
 .env
 .env.bak
+.env.dev
 license.txt
 exports
 *.cache
