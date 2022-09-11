@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
+    "firstName": {
       "type": "string",
       "required": true
     },
@@ -29,44 +29,38 @@
       "required": true,
       "unique": true
     },
-    "phone": {
+    "phoneNumber": {
       "type": "string",
       "required": false
     },
     "gender": {
       "type": "enumeration",
       "enum": [
-        "Male",
-        "Female",
-        "Other"
+        "woman",
+        "man",
+        "anotherGender"
       ],
       "required": true
     },
-    "company": {
+    "companyName": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "jobTitle": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "timeZone": {
       "type": "string",
       "required": true
     },
-    "location": {
-      "type": "string",
-      "required": true
-    },
     "yearsOfExperience": {
       "type": "integer",
-      "required": true
+      "required": true,
+      "max": 100,
+      "min": 0
     },
-    "multipleMentorships": {
-      "type": "boolean",
-      "required": true
-    },
-    "genderPreference": {
+    "isOpenToMultiple": {
       "type": "boolean",
       "required": true
     },
@@ -84,6 +78,25 @@
     },
     "isAvailable": {
       "type": "boolean",
+      "required": false,
+      "default": true
+    },
+    "lastName": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": false
+    },
+    "otherGenderPreference": {
+      "type": "enumeration",
+      "enum": [
+        "woman",
+        "man",
+        "anotherGender",
+        "any"
+      ],
       "required": true
     }
   }
