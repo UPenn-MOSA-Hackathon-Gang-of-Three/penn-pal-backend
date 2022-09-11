@@ -99,6 +99,11 @@
       "relation": "oneToMany",
       "target": "api::email.email",
       "mappedBy": "member"
+    },
+    "uniqueID": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
