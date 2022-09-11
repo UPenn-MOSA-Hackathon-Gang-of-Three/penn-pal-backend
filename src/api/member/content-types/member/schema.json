@@ -24,11 +24,6 @@
       ],
       "required": true
     },
-    "email": {
-      "type": "email",
-      "required": true,
-      "unique": true
-    },
     "phoneNumber": {
       "type": "string",
       "required": false
@@ -98,6 +93,12 @@
         "any"
       ],
       "required": true
+    },
+    "emails": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::email.email",
+      "mappedBy": "member"
     }
   }
 }

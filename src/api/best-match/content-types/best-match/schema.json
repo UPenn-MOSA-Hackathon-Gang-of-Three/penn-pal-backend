@@ -16,13 +16,13 @@
       "type": "string",
       "required": true
     },
-    "company": {
+    "companyName": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "jobTitle": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "timeZone": {
       "type": "string",
@@ -34,18 +34,20 @@
       "target": "api::certification.certification",
       "mappedBy": "best_match"
     },
-    "Gender": {
+    "gender": {
       "type": "enumeration",
       "enum": [
-        "Male",
-        "Female",
-        "Other"
+        "woman",
+        "man",
+        "anotherGender"
       ],
       "required": true
     },
-    "email": {
-      "type": "email",
-      "required": true
+    "emails": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::email.email",
+      "mappedBy": "best_match"
     }
   }
 }

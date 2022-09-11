@@ -21,6 +21,18 @@
       "relation": "manyToOne",
       "target": "api::event.event",
       "inversedBy": "emails"
+    },
+    "member": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::member.member",
+      "inversedBy": "emails"
+    },
+    "best_match": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::best-match.best-match",
+      "inversedBy": "emails"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "event",
     "pluralName": "events",
-    "displayName": "Event"
+    "displayName": "Event",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -24,6 +25,11 @@
       "relation": "oneToMany",
       "target": "api::email.email",
       "mappedBy": "event"
+    },
+    "uniqueID": {
+      "type": "string",
+      "required": true,
+      "unique": true
     }
   }
 }
