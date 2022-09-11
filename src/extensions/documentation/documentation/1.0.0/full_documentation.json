@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-10T10:00:10.512Z"
+    "x-generation-date": "2022-09-11T13:22:03.664Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -95,25 +95,25 @@
         "properties": {
           "data": {
             "required": [
-              "Name",
-              "Company",
-              "JobTitle",
-              "TimeZone",
+              "name",
+              "company",
+              "jobTitle",
+              "timeZone",
               "Gender",
-              "Email"
+              "email"
             ],
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
               "certifications": {
@@ -138,7 +138,7 @@
                   "Other"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               }
@@ -155,16 +155,16 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
               "certifications": {
@@ -193,24 +193,24 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Type": {
+                                        "type": {
                                           "type": "string",
                                           "enum": [
                                             "Mentor",
                                             "Mentee"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
-                                        "Phone": {
+                                        "phone": {
                                           "type": "string"
                                         },
-                                        "Gender": {
+                                        "gender": {
                                           "type": "string",
                                           "enum": [
                                             "Male",
@@ -218,25 +218,25 @@
                                             "Other"
                                           ]
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
-                                        "Location": {
+                                        "location": {
                                           "type": "string"
                                         },
-                                        "YearsOfExperience": {
+                                        "yearsOfExperience": {
                                           "type": "integer"
                                         },
-                                        "MultipleMentorships": {
+                                        "multipleMentorships": {
                                           "type": "boolean"
                                         },
-                                        "GenderPreference": {
+                                        "genderPreference": {
                                           "type": "boolean"
                                         },
                                         "certifications": {
@@ -290,7 +290,7 @@
                                                           }
                                                         }
                                                       },
-                                                      "Name": {
+                                                      "name": {
                                                         "type": "string"
                                                       },
                                                       "createdAt": {
@@ -597,7 +597,7 @@
                                             }
                                           }
                                         },
-                                        "IsAvailable": {
+                                        "isAvailable": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {
@@ -664,16 +664,16 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
                                         "certifications": {
@@ -704,7 +704,7 @@
                                             "Other"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
@@ -760,7 +760,7 @@
                                 }
                               }
                             },
-                            "Name": {
+                            "name": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -824,7 +824,7 @@
                   "Other"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
@@ -887,16 +887,16 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
               "certifications": {
@@ -925,24 +925,24 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Type": {
+                                        "type": {
                                           "type": "string",
                                           "enum": [
                                             "Mentor",
                                             "Mentee"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
-                                        "Phone": {
+                                        "phone": {
                                           "type": "string"
                                         },
-                                        "Gender": {
+                                        "gender": {
                                           "type": "string",
                                           "enum": [
                                             "Male",
@@ -950,25 +950,25 @@
                                             "Other"
                                           ]
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
-                                        "Location": {
+                                        "location": {
                                           "type": "string"
                                         },
-                                        "YearsOfExperience": {
+                                        "yearsOfExperience": {
                                           "type": "integer"
                                         },
-                                        "MultipleMentorships": {
+                                        "multipleMentorships": {
                                           "type": "boolean"
                                         },
-                                        "GenderPreference": {
+                                        "genderPreference": {
                                           "type": "boolean"
                                         },
                                         "certifications": {
@@ -1022,7 +1022,7 @@
                                                           }
                                                         }
                                                       },
-                                                      "Name": {
+                                                      "name": {
                                                         "type": "string"
                                                       },
                                                       "createdAt": {
@@ -1329,7 +1329,7 @@
                                             }
                                           }
                                         },
-                                        "IsAvailable": {
+                                        "isAvailable": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {
@@ -1396,16 +1396,16 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
                                         "certifications": {
@@ -1436,7 +1436,7 @@
                                             "Other"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
@@ -1492,7 +1492,7 @@
                                 }
                               }
                             },
-                            "Name": {
+                            "name": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -1556,7 +1556,7 @@
                   "Other"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
@@ -1652,16 +1652,16 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
               "certifications": {
@@ -1690,24 +1690,24 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Type": {
+                                        "type": {
                                           "type": "string",
                                           "enum": [
                                             "Mentor",
                                             "Mentee"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
-                                        "Phone": {
+                                        "phone": {
                                           "type": "string"
                                         },
-                                        "Gender": {
+                                        "gender": {
                                           "type": "string",
                                           "enum": [
                                             "Male",
@@ -1715,25 +1715,25 @@
                                             "Other"
                                           ]
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
-                                        "Location": {
+                                        "location": {
                                           "type": "string"
                                         },
-                                        "YearsOfExperience": {
+                                        "yearsOfExperience": {
                                           "type": "integer"
                                         },
-                                        "MultipleMentorships": {
+                                        "multipleMentorships": {
                                           "type": "boolean"
                                         },
-                                        "GenderPreference": {
+                                        "genderPreference": {
                                           "type": "boolean"
                                         },
                                         "certifications": {
@@ -1787,7 +1787,7 @@
                                                           }
                                                         }
                                                       },
-                                                      "Name": {
+                                                      "name": {
                                                         "type": "string"
                                                       },
                                                       "createdAt": {
@@ -2094,7 +2094,7 @@
                                             }
                                           }
                                         },
-                                        "IsAvailable": {
+                                        "isAvailable": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {
@@ -2161,16 +2161,16 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
                                         "certifications": {
@@ -2201,7 +2201,7 @@
                                             "Other"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
@@ -2257,7 +2257,7 @@
                                 }
                               }
                             },
-                            "Name": {
+                            "name": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -2321,7 +2321,7 @@
                   "Other"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
@@ -2384,16 +2384,16 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
               "certifications": {
@@ -2422,24 +2422,24 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Type": {
+                                        "type": {
                                           "type": "string",
                                           "enum": [
                                             "Mentor",
                                             "Mentee"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
-                                        "Phone": {
+                                        "phone": {
                                           "type": "string"
                                         },
-                                        "Gender": {
+                                        "gender": {
                                           "type": "string",
                                           "enum": [
                                             "Male",
@@ -2447,25 +2447,25 @@
                                             "Other"
                                           ]
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
-                                        "Location": {
+                                        "location": {
                                           "type": "string"
                                         },
-                                        "YearsOfExperience": {
+                                        "yearsOfExperience": {
                                           "type": "integer"
                                         },
-                                        "MultipleMentorships": {
+                                        "multipleMentorships": {
                                           "type": "boolean"
                                         },
-                                        "GenderPreference": {
+                                        "genderPreference": {
                                           "type": "boolean"
                                         },
                                         "certifications": {
@@ -2519,7 +2519,7 @@
                                                           }
                                                         }
                                                       },
-                                                      "Name": {
+                                                      "name": {
                                                         "type": "string"
                                                       },
                                                       "createdAt": {
@@ -2826,7 +2826,7 @@
                                             }
                                           }
                                         },
-                                        "IsAvailable": {
+                                        "isAvailable": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {
@@ -2893,16 +2893,16 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
                                         "certifications": {
@@ -2933,7 +2933,7 @@
                                             "Other"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
@@ -2989,7 +2989,7 @@
                                 }
                               }
                             },
-                            "Name": {
+                            "name": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -3053,7 +3053,7 @@
                   "Other"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
@@ -3125,7 +3125,7 @@
         "properties": {
           "data": {
             "required": [
-              "Name"
+              "name"
             ],
             "type": "object",
             "properties": {
@@ -3151,7 +3151,7 @@
                 ],
                 "example": "string or id"
               },
-              "Name": {
+              "name": {
                 "type": "string"
               }
             }
@@ -3179,24 +3179,24 @@
                       "attributes": {
                         "type": "object",
                         "properties": {
-                          "Name": {
+                          "name": {
                             "type": "string"
                           },
-                          "Type": {
+                          "type": {
                             "type": "string",
                             "enum": [
                               "Mentor",
                               "Mentee"
                             ]
                           },
-                          "Email": {
+                          "email": {
                             "type": "string",
                             "format": "email"
                           },
-                          "Phone": {
+                          "phone": {
                             "type": "string"
                           },
-                          "Gender": {
+                          "gender": {
                             "type": "string",
                             "enum": [
                               "Male",
@@ -3204,25 +3204,25 @@
                               "Other"
                             ]
                           },
-                          "Company": {
+                          "company": {
                             "type": "string"
                           },
-                          "JobTitle": {
+                          "jobTitle": {
                             "type": "string"
                           },
-                          "TimeZone": {
+                          "timeZone": {
                             "type": "string"
                           },
-                          "Location": {
+                          "location": {
                             "type": "string"
                           },
-                          "YearsOfExperience": {
+                          "yearsOfExperience": {
                             "type": "integer"
                           },
-                          "MultipleMentorships": {
+                          "multipleMentorships": {
                             "type": "boolean"
                           },
-                          "GenderPreference": {
+                          "genderPreference": {
                             "type": "boolean"
                           },
                           "certifications": {
@@ -3268,16 +3268,16 @@
                                                 "attributes": {
                                                   "type": "object",
                                                   "properties": {
-                                                    "Name": {
+                                                    "name": {
                                                       "type": "string"
                                                     },
-                                                    "Company": {
+                                                    "company": {
                                                       "type": "string"
                                                     },
-                                                    "JobTitle": {
+                                                    "jobTitle": {
                                                       "type": "string"
                                                     },
-                                                    "TimeZone": {
+                                                    "timeZone": {
                                                       "type": "string"
                                                     },
                                                     "certifications": {
@@ -3308,7 +3308,7 @@
                                                         "Other"
                                                       ]
                                                     },
-                                                    "Email": {
+                                                    "email": {
                                                       "type": "string",
                                                       "format": "email"
                                                     },
@@ -3615,7 +3615,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -3702,7 +3702,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -3758,7 +3758,7 @@
                               }
                             }
                           },
-                          "IsAvailable": {
+                          "isAvailable": {
                             "type": "boolean"
                           },
                           "createdAt": {
@@ -3830,7 +3830,7 @@
                   }
                 }
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "createdAt": {
@@ -3904,24 +3904,24 @@
                       "attributes": {
                         "type": "object",
                         "properties": {
-                          "Name": {
+                          "name": {
                             "type": "string"
                           },
-                          "Type": {
+                          "type": {
                             "type": "string",
                             "enum": [
                               "Mentor",
                               "Mentee"
                             ]
                           },
-                          "Email": {
+                          "email": {
                             "type": "string",
                             "format": "email"
                           },
-                          "Phone": {
+                          "phone": {
                             "type": "string"
                           },
-                          "Gender": {
+                          "gender": {
                             "type": "string",
                             "enum": [
                               "Male",
@@ -3929,25 +3929,25 @@
                               "Other"
                             ]
                           },
-                          "Company": {
+                          "company": {
                             "type": "string"
                           },
-                          "JobTitle": {
+                          "jobTitle": {
                             "type": "string"
                           },
-                          "TimeZone": {
+                          "timeZone": {
                             "type": "string"
                           },
-                          "Location": {
+                          "location": {
                             "type": "string"
                           },
-                          "YearsOfExperience": {
+                          "yearsOfExperience": {
                             "type": "integer"
                           },
-                          "MultipleMentorships": {
+                          "multipleMentorships": {
                             "type": "boolean"
                           },
-                          "GenderPreference": {
+                          "genderPreference": {
                             "type": "boolean"
                           },
                           "certifications": {
@@ -3993,16 +3993,16 @@
                                                 "attributes": {
                                                   "type": "object",
                                                   "properties": {
-                                                    "Name": {
+                                                    "name": {
                                                       "type": "string"
                                                     },
-                                                    "Company": {
+                                                    "company": {
                                                       "type": "string"
                                                     },
-                                                    "JobTitle": {
+                                                    "jobTitle": {
                                                       "type": "string"
                                                     },
-                                                    "TimeZone": {
+                                                    "timeZone": {
                                                       "type": "string"
                                                     },
                                                     "certifications": {
@@ -4033,7 +4033,7 @@
                                                         "Other"
                                                       ]
                                                     },
-                                                    "Email": {
+                                                    "email": {
                                                       "type": "string",
                                                       "format": "email"
                                                     },
@@ -4340,7 +4340,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -4427,7 +4427,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -4483,7 +4483,7 @@
                               }
                             }
                           },
-                          "IsAvailable": {
+                          "isAvailable": {
                             "type": "boolean"
                           },
                           "createdAt": {
@@ -4555,7 +4555,7 @@
                   }
                 }
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "createdAt": {
@@ -4662,24 +4662,24 @@
                       "attributes": {
                         "type": "object",
                         "properties": {
-                          "Name": {
+                          "name": {
                             "type": "string"
                           },
-                          "Type": {
+                          "type": {
                             "type": "string",
                             "enum": [
                               "Mentor",
                               "Mentee"
                             ]
                           },
-                          "Email": {
+                          "email": {
                             "type": "string",
                             "format": "email"
                           },
-                          "Phone": {
+                          "phone": {
                             "type": "string"
                           },
-                          "Gender": {
+                          "gender": {
                             "type": "string",
                             "enum": [
                               "Male",
@@ -4687,25 +4687,25 @@
                               "Other"
                             ]
                           },
-                          "Company": {
+                          "company": {
                             "type": "string"
                           },
-                          "JobTitle": {
+                          "jobTitle": {
                             "type": "string"
                           },
-                          "TimeZone": {
+                          "timeZone": {
                             "type": "string"
                           },
-                          "Location": {
+                          "location": {
                             "type": "string"
                           },
-                          "YearsOfExperience": {
+                          "yearsOfExperience": {
                             "type": "integer"
                           },
-                          "MultipleMentorships": {
+                          "multipleMentorships": {
                             "type": "boolean"
                           },
-                          "GenderPreference": {
+                          "genderPreference": {
                             "type": "boolean"
                           },
                           "certifications": {
@@ -4751,16 +4751,16 @@
                                                 "attributes": {
                                                   "type": "object",
                                                   "properties": {
-                                                    "Name": {
+                                                    "name": {
                                                       "type": "string"
                                                     },
-                                                    "Company": {
+                                                    "company": {
                                                       "type": "string"
                                                     },
-                                                    "JobTitle": {
+                                                    "jobTitle": {
                                                       "type": "string"
                                                     },
-                                                    "TimeZone": {
+                                                    "timeZone": {
                                                       "type": "string"
                                                     },
                                                     "certifications": {
@@ -4791,7 +4791,7 @@
                                                         "Other"
                                                       ]
                                                     },
-                                                    "Email": {
+                                                    "email": {
                                                       "type": "string",
                                                       "format": "email"
                                                     },
@@ -5098,7 +5098,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -5185,7 +5185,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -5241,7 +5241,7 @@
                               }
                             }
                           },
-                          "IsAvailable": {
+                          "isAvailable": {
                             "type": "boolean"
                           },
                           "createdAt": {
@@ -5313,7 +5313,7 @@
                   }
                 }
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "createdAt": {
@@ -5387,24 +5387,24 @@
                       "attributes": {
                         "type": "object",
                         "properties": {
-                          "Name": {
+                          "name": {
                             "type": "string"
                           },
-                          "Type": {
+                          "type": {
                             "type": "string",
                             "enum": [
                               "Mentor",
                               "Mentee"
                             ]
                           },
-                          "Email": {
+                          "email": {
                             "type": "string",
                             "format": "email"
                           },
-                          "Phone": {
+                          "phone": {
                             "type": "string"
                           },
-                          "Gender": {
+                          "gender": {
                             "type": "string",
                             "enum": [
                               "Male",
@@ -5412,25 +5412,25 @@
                               "Other"
                             ]
                           },
-                          "Company": {
+                          "company": {
                             "type": "string"
                           },
-                          "JobTitle": {
+                          "jobTitle": {
                             "type": "string"
                           },
-                          "TimeZone": {
+                          "timeZone": {
                             "type": "string"
                           },
-                          "Location": {
+                          "location": {
                             "type": "string"
                           },
-                          "YearsOfExperience": {
+                          "yearsOfExperience": {
                             "type": "integer"
                           },
-                          "MultipleMentorships": {
+                          "multipleMentorships": {
                             "type": "boolean"
                           },
-                          "GenderPreference": {
+                          "genderPreference": {
                             "type": "boolean"
                           },
                           "certifications": {
@@ -5476,16 +5476,16 @@
                                                 "attributes": {
                                                   "type": "object",
                                                   "properties": {
-                                                    "Name": {
+                                                    "name": {
                                                       "type": "string"
                                                     },
-                                                    "Company": {
+                                                    "company": {
                                                       "type": "string"
                                                     },
-                                                    "JobTitle": {
+                                                    "jobTitle": {
                                                       "type": "string"
                                                     },
-                                                    "TimeZone": {
+                                                    "timeZone": {
                                                       "type": "string"
                                                     },
                                                     "certifications": {
@@ -5516,7 +5516,7 @@
                                                         "Other"
                                                       ]
                                                     },
-                                                    "Email": {
+                                                    "email": {
                                                       "type": "string",
                                                       "format": "email"
                                                     },
@@ -5823,7 +5823,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -5910,7 +5910,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -5966,7 +5966,7 @@
                               }
                             }
                           },
-                          "IsAvailable": {
+                          "isAvailable": {
                             "type": "boolean"
                           },
                           "createdAt": {
@@ -6038,7 +6038,7 @@
                   }
                 }
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "createdAt": {
@@ -6109,39 +6109,39 @@
         "properties": {
           "data": {
             "required": [
-              "Name",
-              "Type",
-              "Email",
-              "Gender",
-              "Company",
-              "JobTitle",
-              "TimeZone",
-              "Location",
-              "YearsOfExperience",
-              "MultipleMentorships",
-              "GenderPreference",
-              "IsAvailable"
+              "name",
+              "type",
+              "email",
+              "gender",
+              "company",
+              "jobTitle",
+              "timeZone",
+              "location",
+              "yearsOfExperience",
+              "multipleMentorships",
+              "genderPreference",
+              "isAvailable"
             ],
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Type": {
+              "type": {
                 "type": "string",
                 "enum": [
                   "Mentor",
                   "Mentee"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
-              "Phone": {
+              "phone": {
                 "type": "string"
               },
-              "Gender": {
+              "gender": {
                 "type": "string",
                 "enum": [
                   "Male",
@@ -6149,25 +6149,25 @@
                   "Other"
                 ]
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
-              "Location": {
+              "location": {
                 "type": "string"
               },
-              "YearsOfExperience": {
+              "yearsOfExperience": {
                 "type": "integer"
               },
-              "MultipleMentorships": {
+              "multipleMentorships": {
                 "type": "boolean"
               },
-              "GenderPreference": {
+              "genderPreference": {
                 "type": "boolean"
               },
               "certifications": {
@@ -6198,7 +6198,7 @@
                   "example": "string or id"
                 }
               },
-              "IsAvailable": {
+              "isAvailable": {
                 "type": "boolean"
               }
             }
@@ -6214,24 +6214,24 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Type": {
+              "type": {
                 "type": "string",
                 "enum": [
                   "Mentor",
                   "Mentee"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
-              "Phone": {
+              "phone": {
                 "type": "string"
               },
-              "Gender": {
+              "gender": {
                 "type": "string",
                 "enum": [
                   "Male",
@@ -6239,25 +6239,25 @@
                   "Other"
                 ]
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
-              "Location": {
+              "location": {
                 "type": "string"
               },
-              "YearsOfExperience": {
+              "yearsOfExperience": {
                 "type": "integer"
               },
-              "MultipleMentorships": {
+              "multipleMentorships": {
                 "type": "boolean"
               },
-              "GenderPreference": {
+              "genderPreference": {
                 "type": "boolean"
               },
               "certifications": {
@@ -6286,24 +6286,24 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Type": {
+                                        "type": {
                                           "type": "string",
                                           "enum": [
                                             "Mentor",
                                             "Mentee"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
-                                        "Phone": {
+                                        "phone": {
                                           "type": "string"
                                         },
-                                        "Gender": {
+                                        "gender": {
                                           "type": "string",
                                           "enum": [
                                             "Male",
@@ -6311,25 +6311,25 @@
                                             "Other"
                                           ]
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
-                                        "Location": {
+                                        "location": {
                                           "type": "string"
                                         },
-                                        "YearsOfExperience": {
+                                        "yearsOfExperience": {
                                           "type": "integer"
                                         },
-                                        "MultipleMentorships": {
+                                        "multipleMentorships": {
                                           "type": "boolean"
                                         },
-                                        "GenderPreference": {
+                                        "genderPreference": {
                                           "type": "boolean"
                                         },
                                         "certifications": {
@@ -6383,7 +6383,7 @@
                                                           }
                                                         }
                                                       },
-                                                      "Name": {
+                                                      "name": {
                                                         "type": "string"
                                                       },
                                                       "createdAt": {
@@ -6690,7 +6690,7 @@
                                             }
                                           }
                                         },
-                                        "IsAvailable": {
+                                        "isAvailable": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {
@@ -6757,16 +6757,16 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
                                         "certifications": {
@@ -6797,7 +6797,7 @@
                                             "Other"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
@@ -6853,7 +6853,7 @@
                                 }
                               }
                             },
-                            "Name": {
+                            "name": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -6929,7 +6929,7 @@
                   }
                 }
               },
-              "IsAvailable": {
+              "isAvailable": {
                 "type": "boolean"
               },
               "createdAt": {
@@ -6991,24 +6991,24 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Type": {
+              "type": {
                 "type": "string",
                 "enum": [
                   "Mentor",
                   "Mentee"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
-              "Phone": {
+              "phone": {
                 "type": "string"
               },
-              "Gender": {
+              "gender": {
                 "type": "string",
                 "enum": [
                   "Male",
@@ -7016,25 +7016,25 @@
                   "Other"
                 ]
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
-              "Location": {
+              "location": {
                 "type": "string"
               },
-              "YearsOfExperience": {
+              "yearsOfExperience": {
                 "type": "integer"
               },
-              "MultipleMentorships": {
+              "multipleMentorships": {
                 "type": "boolean"
               },
-              "GenderPreference": {
+              "genderPreference": {
                 "type": "boolean"
               },
               "certifications": {
@@ -7063,24 +7063,24 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Type": {
+                                        "type": {
                                           "type": "string",
                                           "enum": [
                                             "Mentor",
                                             "Mentee"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
-                                        "Phone": {
+                                        "phone": {
                                           "type": "string"
                                         },
-                                        "Gender": {
+                                        "gender": {
                                           "type": "string",
                                           "enum": [
                                             "Male",
@@ -7088,25 +7088,25 @@
                                             "Other"
                                           ]
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
-                                        "Location": {
+                                        "location": {
                                           "type": "string"
                                         },
-                                        "YearsOfExperience": {
+                                        "yearsOfExperience": {
                                           "type": "integer"
                                         },
-                                        "MultipleMentorships": {
+                                        "multipleMentorships": {
                                           "type": "boolean"
                                         },
-                                        "GenderPreference": {
+                                        "genderPreference": {
                                           "type": "boolean"
                                         },
                                         "certifications": {
@@ -7160,7 +7160,7 @@
                                                           }
                                                         }
                                                       },
-                                                      "Name": {
+                                                      "name": {
                                                         "type": "string"
                                                       },
                                                       "createdAt": {
@@ -7467,7 +7467,7 @@
                                             }
                                           }
                                         },
-                                        "IsAvailable": {
+                                        "isAvailable": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {
@@ -7534,16 +7534,16 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
                                         "certifications": {
@@ -7574,7 +7574,7 @@
                                             "Other"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
@@ -7630,7 +7630,7 @@
                                 }
                               }
                             },
-                            "Name": {
+                            "name": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -7706,7 +7706,7 @@
                   }
                 }
               },
-              "IsAvailable": {
+              "isAvailable": {
                 "type": "boolean"
               },
               "createdAt": {
@@ -7801,24 +7801,24 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Type": {
+              "type": {
                 "type": "string",
                 "enum": [
                   "Mentor",
                   "Mentee"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
-              "Phone": {
+              "phone": {
                 "type": "string"
               },
-              "Gender": {
+              "gender": {
                 "type": "string",
                 "enum": [
                   "Male",
@@ -7826,25 +7826,25 @@
                   "Other"
                 ]
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
-              "Location": {
+              "location": {
                 "type": "string"
               },
-              "YearsOfExperience": {
+              "yearsOfExperience": {
                 "type": "integer"
               },
-              "MultipleMentorships": {
+              "multipleMentorships": {
                 "type": "boolean"
               },
-              "GenderPreference": {
+              "genderPreference": {
                 "type": "boolean"
               },
               "certifications": {
@@ -7873,24 +7873,24 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Type": {
+                                        "type": {
                                           "type": "string",
                                           "enum": [
                                             "Mentor",
                                             "Mentee"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
-                                        "Phone": {
+                                        "phone": {
                                           "type": "string"
                                         },
-                                        "Gender": {
+                                        "gender": {
                                           "type": "string",
                                           "enum": [
                                             "Male",
@@ -7898,25 +7898,25 @@
                                             "Other"
                                           ]
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
-                                        "Location": {
+                                        "location": {
                                           "type": "string"
                                         },
-                                        "YearsOfExperience": {
+                                        "yearsOfExperience": {
                                           "type": "integer"
                                         },
-                                        "MultipleMentorships": {
+                                        "multipleMentorships": {
                                           "type": "boolean"
                                         },
-                                        "GenderPreference": {
+                                        "genderPreference": {
                                           "type": "boolean"
                                         },
                                         "certifications": {
@@ -7970,7 +7970,7 @@
                                                           }
                                                         }
                                                       },
-                                                      "Name": {
+                                                      "name": {
                                                         "type": "string"
                                                       },
                                                       "createdAt": {
@@ -8277,7 +8277,7 @@
                                             }
                                           }
                                         },
-                                        "IsAvailable": {
+                                        "isAvailable": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {
@@ -8344,16 +8344,16 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
                                         "certifications": {
@@ -8384,7 +8384,7 @@
                                             "Other"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
@@ -8440,7 +8440,7 @@
                                 }
                               }
                             },
-                            "Name": {
+                            "name": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -8516,7 +8516,7 @@
                   }
                 }
               },
-              "IsAvailable": {
+              "isAvailable": {
                 "type": "boolean"
               },
               "createdAt": {
@@ -8578,24 +8578,24 @@
           "attributes": {
             "type": "object",
             "properties": {
-              "Name": {
+              "name": {
                 "type": "string"
               },
-              "Type": {
+              "type": {
                 "type": "string",
                 "enum": [
                   "Mentor",
                   "Mentee"
                 ]
               },
-              "Email": {
+              "email": {
                 "type": "string",
                 "format": "email"
               },
-              "Phone": {
+              "phone": {
                 "type": "string"
               },
-              "Gender": {
+              "gender": {
                 "type": "string",
                 "enum": [
                   "Male",
@@ -8603,25 +8603,25 @@
                   "Other"
                 ]
               },
-              "Company": {
+              "company": {
                 "type": "string"
               },
-              "JobTitle": {
+              "jobTitle": {
                 "type": "string"
               },
-              "TimeZone": {
+              "timeZone": {
                 "type": "string"
               },
-              "Location": {
+              "location": {
                 "type": "string"
               },
-              "YearsOfExperience": {
+              "yearsOfExperience": {
                 "type": "integer"
               },
-              "MultipleMentorships": {
+              "multipleMentorships": {
                 "type": "boolean"
               },
-              "GenderPreference": {
+              "genderPreference": {
                 "type": "boolean"
               },
               "certifications": {
@@ -8650,24 +8650,24 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Type": {
+                                        "type": {
                                           "type": "string",
                                           "enum": [
                                             "Mentor",
                                             "Mentee"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
-                                        "Phone": {
+                                        "phone": {
                                           "type": "string"
                                         },
-                                        "Gender": {
+                                        "gender": {
                                           "type": "string",
                                           "enum": [
                                             "Male",
@@ -8675,25 +8675,25 @@
                                             "Other"
                                           ]
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
-                                        "Location": {
+                                        "location": {
                                           "type": "string"
                                         },
-                                        "YearsOfExperience": {
+                                        "yearsOfExperience": {
                                           "type": "integer"
                                         },
-                                        "MultipleMentorships": {
+                                        "multipleMentorships": {
                                           "type": "boolean"
                                         },
-                                        "GenderPreference": {
+                                        "genderPreference": {
                                           "type": "boolean"
                                         },
                                         "certifications": {
@@ -8747,7 +8747,7 @@
                                                           }
                                                         }
                                                       },
-                                                      "Name": {
+                                                      "name": {
                                                         "type": "string"
                                                       },
                                                       "createdAt": {
@@ -9054,7 +9054,7 @@
                                             }
                                           }
                                         },
-                                        "IsAvailable": {
+                                        "isAvailable": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {
@@ -9121,16 +9121,16 @@
                                     "attributes": {
                                       "type": "object",
                                       "properties": {
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
-                                        "Company": {
+                                        "company": {
                                           "type": "string"
                                         },
-                                        "JobTitle": {
+                                        "jobTitle": {
                                           "type": "string"
                                         },
-                                        "TimeZone": {
+                                        "timeZone": {
                                           "type": "string"
                                         },
                                         "certifications": {
@@ -9161,7 +9161,7 @@
                                             "Other"
                                           ]
                                         },
-                                        "Email": {
+                                        "email": {
                                           "type": "string",
                                           "format": "email"
                                         },
@@ -9217,7 +9217,7 @@
                                 }
                               }
                             },
-                            "Name": {
+                            "name": {
                               "type": "string"
                             },
                             "createdAt": {
@@ -9293,7 +9293,7 @@
                   }
                 }
               },
-              "IsAvailable": {
+              "isAvailable": {
                 "type": "boolean"
               },
               "createdAt": {
@@ -9364,7 +9364,7 @@
         "properties": {
           "data": {
             "required": [
-              "Name"
+              "name"
             ],
             "type": "object",
             "properties": {
@@ -9379,7 +9379,7 @@
                 ],
                 "example": "string or id"
               },
-              "Name": {
+              "name": {
                 "type": "string"
               }
             }
@@ -9407,24 +9407,24 @@
                       "attributes": {
                         "type": "object",
                         "properties": {
-                          "Name": {
+                          "name": {
                             "type": "string"
                           },
-                          "Type": {
+                          "type": {
                             "type": "string",
                             "enum": [
                               "Mentor",
                               "Mentee"
                             ]
                           },
-                          "Email": {
+                          "email": {
                             "type": "string",
                             "format": "email"
                           },
-                          "Phone": {
+                          "phone": {
                             "type": "string"
                           },
-                          "Gender": {
+                          "gender": {
                             "type": "string",
                             "enum": [
                               "Male",
@@ -9432,25 +9432,25 @@
                               "Other"
                             ]
                           },
-                          "Company": {
+                          "company": {
                             "type": "string"
                           },
-                          "JobTitle": {
+                          "jobTitle": {
                             "type": "string"
                           },
-                          "TimeZone": {
+                          "timeZone": {
                             "type": "string"
                           },
-                          "Location": {
+                          "location": {
                             "type": "string"
                           },
-                          "YearsOfExperience": {
+                          "yearsOfExperience": {
                             "type": "integer"
                           },
-                          "MultipleMentorships": {
+                          "multipleMentorships": {
                             "type": "boolean"
                           },
-                          "GenderPreference": {
+                          "genderPreference": {
                             "type": "boolean"
                           },
                           "certifications": {
@@ -9496,16 +9496,16 @@
                                                 "attributes": {
                                                   "type": "object",
                                                   "properties": {
-                                                    "Name": {
+                                                    "name": {
                                                       "type": "string"
                                                     },
-                                                    "Company": {
+                                                    "company": {
                                                       "type": "string"
                                                     },
-                                                    "JobTitle": {
+                                                    "jobTitle": {
                                                       "type": "string"
                                                     },
-                                                    "TimeZone": {
+                                                    "timeZone": {
                                                       "type": "string"
                                                     },
                                                     "certifications": {
@@ -9536,7 +9536,7 @@
                                                         "Other"
                                                       ]
                                                     },
-                                                    "Email": {
+                                                    "email": {
                                                       "type": "string",
                                                       "format": "email"
                                                     },
@@ -9843,7 +9843,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -9930,7 +9930,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -9986,7 +9986,7 @@
                               }
                             }
                           },
-                          "IsAvailable": {
+                          "isAvailable": {
                             "type": "boolean"
                           },
                           "createdAt": {
@@ -10041,7 +10041,7 @@
                   }
                 }
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "createdAt": {
@@ -10115,24 +10115,24 @@
                       "attributes": {
                         "type": "object",
                         "properties": {
-                          "Name": {
+                          "name": {
                             "type": "string"
                           },
-                          "Type": {
+                          "type": {
                             "type": "string",
                             "enum": [
                               "Mentor",
                               "Mentee"
                             ]
                           },
-                          "Email": {
+                          "email": {
                             "type": "string",
                             "format": "email"
                           },
-                          "Phone": {
+                          "phone": {
                             "type": "string"
                           },
-                          "Gender": {
+                          "gender": {
                             "type": "string",
                             "enum": [
                               "Male",
@@ -10140,25 +10140,25 @@
                               "Other"
                             ]
                           },
-                          "Company": {
+                          "company": {
                             "type": "string"
                           },
-                          "JobTitle": {
+                          "jobTitle": {
                             "type": "string"
                           },
-                          "TimeZone": {
+                          "timeZone": {
                             "type": "string"
                           },
-                          "Location": {
+                          "location": {
                             "type": "string"
                           },
-                          "YearsOfExperience": {
+                          "yearsOfExperience": {
                             "type": "integer"
                           },
-                          "MultipleMentorships": {
+                          "multipleMentorships": {
                             "type": "boolean"
                           },
-                          "GenderPreference": {
+                          "genderPreference": {
                             "type": "boolean"
                           },
                           "certifications": {
@@ -10204,16 +10204,16 @@
                                                 "attributes": {
                                                   "type": "object",
                                                   "properties": {
-                                                    "Name": {
+                                                    "name": {
                                                       "type": "string"
                                                     },
-                                                    "Company": {
+                                                    "company": {
                                                       "type": "string"
                                                     },
-                                                    "JobTitle": {
+                                                    "jobTitle": {
                                                       "type": "string"
                                                     },
-                                                    "TimeZone": {
+                                                    "timeZone": {
                                                       "type": "string"
                                                     },
                                                     "certifications": {
@@ -10244,7 +10244,7 @@
                                                         "Other"
                                                       ]
                                                     },
-                                                    "Email": {
+                                                    "email": {
                                                       "type": "string",
                                                       "format": "email"
                                                     },
@@ -10551,7 +10551,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -10638,7 +10638,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -10694,7 +10694,7 @@
                               }
                             }
                           },
-                          "IsAvailable": {
+                          "isAvailable": {
                             "type": "boolean"
                           },
                           "createdAt": {
@@ -10749,7 +10749,7 @@
                   }
                 }
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "createdAt": {
@@ -10856,24 +10856,24 @@
                       "attributes": {
                         "type": "object",
                         "properties": {
-                          "Name": {
+                          "name": {
                             "type": "string"
                           },
-                          "Type": {
+                          "type": {
                             "type": "string",
                             "enum": [
                               "Mentor",
                               "Mentee"
                             ]
                           },
-                          "Email": {
+                          "email": {
                             "type": "string",
                             "format": "email"
                           },
-                          "Phone": {
+                          "phone": {
                             "type": "string"
                           },
-                          "Gender": {
+                          "gender": {
                             "type": "string",
                             "enum": [
                               "Male",
@@ -10881,25 +10881,25 @@
                               "Other"
                             ]
                           },
-                          "Company": {
+                          "company": {
                             "type": "string"
                           },
-                          "JobTitle": {
+                          "jobTitle": {
                             "type": "string"
                           },
-                          "TimeZone": {
+                          "timeZone": {
                             "type": "string"
                           },
-                          "Location": {
+                          "location": {
                             "type": "string"
                           },
-                          "YearsOfExperience": {
+                          "yearsOfExperience": {
                             "type": "integer"
                           },
-                          "MultipleMentorships": {
+                          "multipleMentorships": {
                             "type": "boolean"
                           },
-                          "GenderPreference": {
+                          "genderPreference": {
                             "type": "boolean"
                           },
                           "certifications": {
@@ -10945,16 +10945,16 @@
                                                 "attributes": {
                                                   "type": "object",
                                                   "properties": {
-                                                    "Name": {
+                                                    "name": {
                                                       "type": "string"
                                                     },
-                                                    "Company": {
+                                                    "company": {
                                                       "type": "string"
                                                     },
-                                                    "JobTitle": {
+                                                    "jobTitle": {
                                                       "type": "string"
                                                     },
-                                                    "TimeZone": {
+                                                    "timeZone": {
                                                       "type": "string"
                                                     },
                                                     "certifications": {
@@ -10985,7 +10985,7 @@
                                                         "Other"
                                                       ]
                                                     },
-                                                    "Email": {
+                                                    "email": {
                                                       "type": "string",
                                                       "format": "email"
                                                     },
@@ -11292,7 +11292,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -11379,7 +11379,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -11435,7 +11435,7 @@
                               }
                             }
                           },
-                          "IsAvailable": {
+                          "isAvailable": {
                             "type": "boolean"
                           },
                           "createdAt": {
@@ -11490,7 +11490,7 @@
                   }
                 }
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "createdAt": {
@@ -11564,24 +11564,24 @@
                       "attributes": {
                         "type": "object",
                         "properties": {
-                          "Name": {
+                          "name": {
                             "type": "string"
                           },
-                          "Type": {
+                          "type": {
                             "type": "string",
                             "enum": [
                               "Mentor",
                               "Mentee"
                             ]
                           },
-                          "Email": {
+                          "email": {
                             "type": "string",
                             "format": "email"
                           },
-                          "Phone": {
+                          "phone": {
                             "type": "string"
                           },
-                          "Gender": {
+                          "gender": {
                             "type": "string",
                             "enum": [
                               "Male",
@@ -11589,25 +11589,25 @@
                               "Other"
                             ]
                           },
-                          "Company": {
+                          "company": {
                             "type": "string"
                           },
-                          "JobTitle": {
+                          "jobTitle": {
                             "type": "string"
                           },
-                          "TimeZone": {
+                          "timeZone": {
                             "type": "string"
                           },
-                          "Location": {
+                          "location": {
                             "type": "string"
                           },
-                          "YearsOfExperience": {
+                          "yearsOfExperience": {
                             "type": "integer"
                           },
-                          "MultipleMentorships": {
+                          "multipleMentorships": {
                             "type": "boolean"
                           },
-                          "GenderPreference": {
+                          "genderPreference": {
                             "type": "boolean"
                           },
                           "certifications": {
@@ -11653,16 +11653,16 @@
                                                 "attributes": {
                                                   "type": "object",
                                                   "properties": {
-                                                    "Name": {
+                                                    "name": {
                                                       "type": "string"
                                                     },
-                                                    "Company": {
+                                                    "company": {
                                                       "type": "string"
                                                     },
-                                                    "JobTitle": {
+                                                    "jobTitle": {
                                                       "type": "string"
                                                     },
-                                                    "TimeZone": {
+                                                    "timeZone": {
                                                       "type": "string"
                                                     },
                                                     "certifications": {
@@ -11693,7 +11693,7 @@
                                                         "Other"
                                                       ]
                                                     },
-                                                    "Email": {
+                                                    "email": {
                                                       "type": "string",
                                                       "format": "email"
                                                     },
@@ -12000,7 +12000,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -12087,7 +12087,7 @@
                                             }
                                           }
                                         },
-                                        "Name": {
+                                        "name": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -12143,7 +12143,7 @@
                               }
                             }
                           },
-                          "IsAvailable": {
+                          "isAvailable": {
                             "type": "boolean"
                           },
                           "createdAt": {
@@ -12198,7 +12198,7 @@
                   }
                 }
               },
-              "Name": {
+              "name": {
                 "type": "string"
               },
               "createdAt": {

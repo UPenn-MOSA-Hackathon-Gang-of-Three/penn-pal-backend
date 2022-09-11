@@ -4,26 +4,27 @@
   "info": {
     "singularName": "best-match",
     "pluralName": "best-matches",
-    "displayName": "Best Match"
+    "displayName": "Best Match",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Company": {
+    "company": {
       "type": "string",
       "required": true
     },
-    "JobTitle": {
+    "jobTitle": {
       "type": "string",
       "required": true
     },
-    "TimeZone": {
+    "timeZone": {
       "type": "string",
       "required": true
     },
@@ -42,7 +43,7 @@
       ],
       "required": true
     },
-    "Email": {
+    "email": {
       "type": "email",
       "required": true
     }

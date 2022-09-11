@@ -12,11 +12,11 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": true
     },
-    "Type": {
+    "type": {
       "type": "enumeration",
       "enum": [
         "Mentor",
@@ -24,16 +24,16 @@
       ],
       "required": true
     },
-    "Email": {
+    "email": {
       "type": "email",
       "required": true,
       "unique": true
     },
-    "Phone": {
+    "phone": {
       "type": "string",
       "required": false
     },
-    "Gender": {
+    "gender": {
       "type": "enumeration",
       "enum": [
         "Male",
@@ -42,31 +42,31 @@
       ],
       "required": true
     },
-    "Company": {
+    "company": {
       "type": "string",
       "required": true
     },
-    "JobTitle": {
+    "jobTitle": {
       "type": "string",
       "required": true
     },
-    "TimeZone": {
+    "timeZone": {
       "type": "string",
       "required": true
     },
-    "Location": {
+    "location": {
       "type": "string",
       "required": true
     },
-    "YearsOfExperience": {
+    "yearsOfExperience": {
       "type": "integer",
       "required": true
     },
-    "MultipleMentorships": {
+    "multipleMentorships": {
       "type": "boolean",
       "required": true
     },
-    "GenderPreference": {
+    "genderPreference": {
       "type": "boolean",
       "required": true
     },
@@ -82,7 +82,7 @@
       "target": "api::skill.skill",
       "mappedBy": "member"
     },
-    "IsAvailable": {
+    "isAvailable": {
       "type": "boolean",
       "required": true
     }

@@ -24,7 +24,7 @@
       "target": "api::best-match.best-match",
       "inversedBy": "certifications"
     },
-    "Name": {
+    "name": {
       "type": "string",
       "required": true,
       "unique": true
