@@ -11,40 +11,31 @@ export default factories.createCoreController('api::certification.certification'
   const { data, meta } = await super.find(ctx);
 
   return { data, meta };
-},
+  },
 
-async findOne(ctx) {
-  const { id } = ctx.params;
-  const { query } = ctx;
+  async findOne(ctx) {
+    const { id } = ctx.params;
+    const { query } = ctx;
 
-  const entity = await strapi.service('api::certification.certification').findOne(id, query);
-  const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
+    const entity = await strapi.service('api::certification.certification').findOne(id, query);
+    const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
 
-  return this.transformResponse(sanitizedEntity);
-},
+    return this.transformResponse(sanitizedEntity);
+  },
 
-async create(ctx) {
-  ctx.request.body.data = {
-    ...ctx.request.body.data,
-    createdAt: ctx.createdAt,
-    updatedAt: ctx.updatedAt
-  };
+  async create(ctx) {
+    try {
+      const response = await super.create(ctx);
+      return response;
+    } catch (err) {
+      return err;
+    };
+  },
 
-  const { query } = ctx;
+  async delete(ctx) {
 
-  const allCertifications = strapi.service('api::certification.certification').find(ctx);
+    const result = await super.delete(ctx);
 
-
-
-  const result = await super.create(ctx);
-
-  return result
-},
-
-async delete(ctx) {
-
-  const result = await super.delete(ctx);
-
-  return result;
-}
+    return result;
+  }
 }));
