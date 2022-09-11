@@ -4,8 +4,6 @@
 
 import { factories } from '@strapi/strapi';
 
-// export default factories.createCoreRouter('api::certification.certification');
-
 export default factories.createCoreRouter('api::certification.certification', {
   // creates an object with the basic CRUD configuration
   // ...

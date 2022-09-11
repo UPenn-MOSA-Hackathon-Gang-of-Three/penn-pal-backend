@@ -102,7 +102,7 @@
     },
     "uniqueID": {
       "type": "string",
-      "required": true,
+      "required": false,
       "unique": true
     }
   }
