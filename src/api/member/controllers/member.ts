@@ -16,8 +16,10 @@ export default factories.createCoreController('api::member.member', ({ strapi })
   async findOne(ctx) {
     const { id } = ctx.params;
     const { query } = ctx;
+    console.log(id);
+    // console.log(query);
 
-    const entity = await strapi.service('api::certification.certification').findOne(id, query);
+    const entity = await strapi.service('api::member.member').findOne(id, query);
     const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
 
     return this.transformResponse(sanitizedEntity);

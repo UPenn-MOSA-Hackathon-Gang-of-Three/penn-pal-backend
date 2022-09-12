@@ -17,7 +17,7 @@ export default factories.createCoreController('api::top-result.top-result', ({ s
     const { id } = ctx.params;
     const { query } = ctx;
 
-    const entity = await strapi.service('api::best-match.best-match').findOne(id, query);
+    const entity = await strapi.service('api::top-result.top-result').findOne(id, query);
     const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
 
     return this.transformResponse(sanitizedEntity);

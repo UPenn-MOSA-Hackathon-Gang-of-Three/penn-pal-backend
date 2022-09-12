@@ -18,7 +18,7 @@ export default factories.createCoreController('api::event.event', ({ strapi }) =
     const { id } = ctx.params;
     const { query } = ctx;
 
-    const entity = await strapi.service('api::certification.certification').findOne(id, query);
+    const entity = await strapi.service('api::event.event').findOne(id, query);
     const sanitizedEntity = await this.sanitizeOutput(entity, ctx);
 
     return this.transformResponse(sanitizedEntity);
