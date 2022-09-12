@@ -25,13 +25,44 @@ export default factories.createCoreController('api::event.event', ({ strapi }) =
   },
 
   async create(ctx) {
-    ctx.request.body.data = {
-      ...ctx.request.body.data,
-      uniqueID: nanoid()
-    };
+    try {
+      const { emails } = ctx.request.body.data;
 
-    const response = await super.create(ctx);
-    return response;
+      let emailIDs = [];
+
+      for (const email of emails) {
+        const existingEmail = await strapi.db.query('api::email.email').findOne({
+          select: [
+            'id',
+            'value'
+          ],
+          where: {
+            value: email
+          }
+        });
+        if (existingEmail === null) {
+          const newEmail = await strapi.entityService.create('api::email.email', {
+            data: {
+              value: email,
+            },
+          });
+          emailIDs.push(newEmail.id);
+        } else {
+          emailIDs.push(existingEmail.id);
+        };
+      };
+
+      ctx.request.body.data = {
+        ...ctx.request.body.data,
+        uniqueID: nanoid(),
+        emails: emailIDs,
+      };
+
+      const response = await super.create(ctx);
+      return response;
+    } catch (err) {
+      return err;
+    }
   },
 
   async update(ctx) {
