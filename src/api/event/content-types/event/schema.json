@@ -28,7 +28,6 @@
     },
     "uniqueID": {
       "type": "string",
-      "required": false,
       "unique": true
     }
   }

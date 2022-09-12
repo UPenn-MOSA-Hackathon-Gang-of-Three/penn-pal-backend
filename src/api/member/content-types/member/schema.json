@@ -94,16 +94,16 @@
       ],
       "required": true
     },
-    "uniqueID": {
-      "type": "string",
-      "required": false,
-      "unique": true
-    },
     "emails": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::email.email",
       "inversedBy": "members"
+    },
+    "uniqueID": {
+      "type": "string",
+      "required": false,
+      "unique": true
     }
   }
 }

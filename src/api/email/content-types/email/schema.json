@@ -27,7 +27,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::member.member",
-      "inversedBy": "emails"
+      "mappedBy": "emails"
     },
     "best_match": {
       "type": "relation",
