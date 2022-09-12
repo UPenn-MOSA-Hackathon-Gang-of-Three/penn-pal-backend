@@ -9,10 +9,7 @@ import { nanoid } from 'nanoid';
 
 export default factories.createCoreController('api::top-result.top-result', ({ strapi }) => ({
   async find(ctx) {
-    // ctx.query = { ...ctx.query, local: 'en' }
-
     const { data, meta } = await super.find(ctx);
-
     return { data, meta };
   },
 

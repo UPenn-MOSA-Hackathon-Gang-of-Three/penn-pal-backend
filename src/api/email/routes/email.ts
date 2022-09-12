@@ -15,6 +15,16 @@ export default factories.createCoreRouter('api::email.email', {
       ],
       // here you can also customize auth & middlewares
     },
+    findOne: {
+      policies: [
+        'admin::isAuthenticatedAdmin'
+      ]
+    },
+    create: {
+      policies: [
+        'admin::isAuthenticatedAdmin'
+      ]
+    }
   },
   // disables every action except `find` and `findOne`.
   only: ['find', 'findOne', 'create', 'delete'],
