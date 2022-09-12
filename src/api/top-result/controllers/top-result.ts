@@ -5,6 +5,7 @@
 
 import { factories } from '@strapi/strapi';
 const moment = require('moment-timezone');
+import { nanoid } from 'nanoid';
 
 export default factories.createCoreController('api::top-result.top-result', ({ strapi }) => ({
   async find(ctx) {
@@ -171,11 +172,11 @@ export default factories.createCoreController('api::top-result.top-result', ({ s
 
       console.log(topScores);
 
-
       ctx.request.body.data = {
-        menteeID: mentee.id,
-        menteeUniqueID: mentee.uniqueID,
-        matches: topScores
+        menteeID: id,
+        menteeUniqueID: uniqueID,
+        matches: topScores,
+        uniqueID: nanoid()
       };
 
       const result = await super.create(ctx);
