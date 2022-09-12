@@ -13,6 +13,8 @@ export default factories.createCoreController('api::member.member', ({ strapi })
 
     const { data, meta } = await super.find(ctx);
 
+
+
     return { data, meta };
   },
 

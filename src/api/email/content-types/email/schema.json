@@ -4,7 +4,8 @@
   "info": {
     "singularName": "email",
     "pluralName": "emails",
-    "displayName": "Email"
+    "displayName": "Email",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -22,9 +23,9 @@
       "target": "api::event.event",
       "inversedBy": "emails"
     },
-    "member": {
+    "members": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "manyToMany",
       "target": "api::member.member",
       "inversedBy": "emails"
     },

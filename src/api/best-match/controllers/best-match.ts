@@ -26,13 +26,16 @@ export default factories.createCoreController('api::best-match.best-match', ({ s
   async create(ctx) {
     ctx.request.body.data = {
       ...ctx.request.body.data,
-      createdAt: ctx.createdAt,
-      updatedAt: ctx.updatedAt
     };
 
     const result = await super.create(ctx);
 
     return result
+  },
+
+  async update(ctx) {
+    const response = await super.update(ctx);
+    return response;
   },
 
   async delete(ctx) {

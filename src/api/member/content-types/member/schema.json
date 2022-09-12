@@ -19,8 +19,8 @@
     "type": {
       "type": "enumeration",
       "enum": [
-        "Mentor",
-        "Mentee"
+        "mentor",
+        "mentee"
       ],
       "required": true
     },
@@ -94,16 +94,16 @@
       ],
       "required": true
     },
-    "emails": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::email.email",
-      "mappedBy": "member"
-    },
     "uniqueID": {
       "type": "string",
       "required": false,
       "unique": true
+    },
+    "emails": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::email.email",
+      "inversedBy": "members"
     }
   }
 }

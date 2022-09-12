@@ -17,11 +17,15 @@
     "@strapi/plugin-i18n": "4.3.8",
     "@strapi/plugin-users-permissions": "4.3.8",
     "@strapi/strapi": "4.3.8",
+    "@vvo/tzdb": "^6.63.0",
     "dotenv": "^16.0.2",
     "firebase-admin": "^11.0.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.37",
     "nanoid": "^3.3.4",
     "pg": "^8.8.0",
-    "pg-connection-string": "^2.5.0"
+    "pg-connection-string": "^2.5.0",
+    "world_countries_lists": "^2.6.0"
   },
   "author": {
     "name": "A Strapi developer"

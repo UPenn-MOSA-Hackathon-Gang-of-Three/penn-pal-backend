@@ -1,10 +1,10 @@
 /**
- * best-match router
+ * top-result router
  */
 
 import { factories } from '@strapi/strapi';
 
-export default factories.createCoreRouter('api::best-match.best-match', {
+export default factories.createCoreRouter('api::top-result.top-result', {
   // creates an object with the basic CRUD configuration
   // ...
   config: {
