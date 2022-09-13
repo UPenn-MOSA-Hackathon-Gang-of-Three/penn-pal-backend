@@ -1,5 +1,9 @@
 # Penn-Pal App Backend
 
+We use the Strapi headless CMS for most of the backend development, together with a Postgres Database hosted publicly.
+For development it is best to have a local database for testing purposes. 
+Instructions on how to start with Strapi are below. 
+
 ## Notes for Development
 This code has been configured so that it can be run locally with a local Postgres database.
 To develop with a local database, configure with the proper environment variable `ENV_PATH` as follows:
